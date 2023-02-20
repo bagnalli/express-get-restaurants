@@ -1,19 +1,16 @@
 {
-  "name": "express_and_sequelize_practice",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "express-get-restaurants",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "seed": "node seed.js",
-    "test": "jest --watch"
+    "start": "node ./bin/www"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3",
-    "path": "^0.12.7",
-    "sequelize": "^6.21.4",
-    "sqlite3": "^5.0.11"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
   }
 }
